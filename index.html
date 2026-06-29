@@ -17,7 +17,7 @@
   </script>
 </head>
 
-<body>
+<body>    
   <a-scene 
     mindar-image="imageTargetSrc: ./tracker1.mind;" 
     vr-mode-ui="enabled: false" 
@@ -35,13 +35,16 @@
 
     <a-entity mindar-image-target="targetIndex: 0">
       
-      <a-image class="clickable" src="#iconMail" url-opener="link: mailto:test@test.com" position="-0.7 0.2 0.02" width="0.15" height="0.15"></a-image>
-      <a-image class="clickable" src="#iconPhone" url-opener="link: tel:123456789" position="-0.7 0 0.02" width="0.15" height="0.15"></a-image>
-      <a-image class="clickable" src="#iconWeb" url-opener="link: https://google.com" position="-0.7 -0.2 0.02" width="0.15" height="0.15"></a-image>
+      <a-image class="clickable" src="https://images.icon-icons.com/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png" url-opener="link: https://mail.google.com/mail/u/0/?tab=rm&ogbl" position="-0.7 0.2 0.02" width="0.15" height="0.15"></a-image>
+      <a-image class="clickable" src="https://i.pinimg.com/736x/7d/dc/54/7ddc545046b212d9ecc8eef83569222b.jpg" url-opener="link: https://www.youtube.com/" position="-0.7 0 0.02" width="0.15" height="0.15"></a-image>
+      <a-image class="clickable" src="https://img.magnific.com/premium-vector/twitter-vector-logo-logotype-vector-social-media_901408-396.jpg?semt=ais_hybrid&w=740&q=80" url-opener="link: https://x.com/" position="-0.7 -0.2 0.02" width="0.15" height="0.15"></a-image>
 
       <a-entity gltf-model="#model1" position="0 0.6 0" scale="0.5 0.5 0.5"></a-entity>
 
       <a-plane class="clickable" url-opener="link: https://your-portfolio.com" src="#videoMock" position="0 -0.8 0.01" width="1.2" height="0.6"></a-plane>
+
+
+
 
     </a-entity>
   </a-scene>
